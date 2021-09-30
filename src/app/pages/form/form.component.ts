@@ -21,7 +21,6 @@ export class FormComponent implements OnInit {
       synopsis: [this.movie?.synopsis],
       year: [this.movie?.year],
       duration: [this.movie?.duration],
-      photoUrl: [this.movie?.photoUrl],
       rating: [this.movie?.rating]
     });
   }
@@ -34,7 +33,6 @@ export class FormComponent implements OnInit {
       synopsis: this.form.get('synopsis')?.value || null,
       year: this.form.get('year')?.value || null,
       duration: this.form.get('duration')?.value || null,
-      photoUrl: this.form.get('photoUrl')?.value || null,
       rating: this.form.get('rating')?.value || null
     };
 

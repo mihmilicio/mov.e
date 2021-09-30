@@ -4,6 +4,5 @@ export interface Movie {
   synopsis?: string;
   year?: string;
   duration?: number;
-  photoUrl?: string;
   rating?: number;
 }
